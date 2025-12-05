@@ -1,0 +1,53 @@
+﻿# STM32编译文件
+*.o
+*.su
+*.map
+*.elf
+*.bin
+*.hex
+*.axf
+*.lst
+
+# Keil uVision项目文件
+*.uvguix.*
+*.uvoptx
+*.uvprojx
+*.uvmpw
+*.bak
+
+# 构建输出目录
+/Output/
+/Listings/
+/Objects/
+/build/
+/Debug/
+/Release/
+
+# IDE和工具文件
+.vscode/
+.idea/
+*.workspace
+*.project
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# 个人设置文件（不应共享）
+*.local
+*.user
+
+# 编译中间文件
+*.d
+*.i
+*.s
+*.crf
+*.dep
+*.lnp
+
+# 调试文件
+*.cdbg
+*.cdb
+*.scvd
